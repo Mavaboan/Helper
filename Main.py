@@ -1,12 +1,10 @@
-# Input, specifikt hvkellige forbrug
+# Input, specifikt inkomst og forbrug
 
 inkomst = int(input("Hvor meget tjener du om måneden efter skat?"))
 
 husleje = int(input("Hvor meget bruger du på husleje/betaling på dit hus?"))
 
 mad = int(input("Hvor meget bruger du på mad om måneden?"))
-
-utility = int(input("Hvor meget bruger du på el, vand, internet etc om måneden?"))
 
 underholdning = int(input("Hvor meget bruger du på underholdning om måneden?"))
 
@@ -24,4 +22,23 @@ andet = int(input("Hvor meget bruger du på andre ting om måneden?"))
 if (int(husleje) > (int(inkomst) * float(0.35))):
     print("Du bruger mange penge på dit hus, overvej at finde et billigere sted at bo")
 
-if
+if (mad > (inkomst * 0.20)):
+    print("Du bruger mange penge på mad, overvej at bruge mindre")
+
+if (underholdning > (inkomst * 0.1)):
+    print("Du bruger mange penge på underholdning, overvej at bruge mindre")
+
+if (tøj > (inkomst * 0.15)):
+    print("Du bruger mange penge på tøj, overvej at bruge mindre")
+
+if (opsaring > (inkomst * 0.15)):
+    print("Du sender mange penge til din opsaring, du kan sagtens sende minder uden at have problemer.")
+
+if (forsikring > (inkomst * 0.20)):
+    print("Du bruger mange penge på din forsikring, prøv at se om du kan finde billigere forsikringer")
+
+if (transport > (inkomst * 0.15)):
+    print("Du bruger mange penge på transport, overvej at cykle eller finde en anden måde at få billigere transport")
+
+if (andet > (inkomst * 2))
+    print("Du bruger mange penge på diverse andre ting, overvej at nedskærre dit forbrug")
