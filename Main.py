@@ -31,7 +31,7 @@ if (underholdning > (inkomst * 0.1)):
 if (tøj > (inkomst * 0.15)):
     print("Du bruger mange penge på tøj, overvej at bruge mindre")
 
-if (opsaring > (inkomst * 0.15)):
+if (opsparing > (inkomst * 0.15)):
     print("Du sender mange penge til din opsaring, du kan sagtens sende minder uden at have problemer.")
 
 if (forsikring > (inkomst * 0.20)):
@@ -40,5 +40,5 @@ if (forsikring > (inkomst * 0.20)):
 if (transport > (inkomst * 0.15)):
     print("Du bruger mange penge på transport, overvej at cykle eller finde en anden måde at få billigere transport")
 
-if (andet > (inkomst * 2))
+if (andet > (inkomst * 0.2)):
     print("Du bruger mange penge på diverse andre ting, overvej at nedskærre dit forbrug")
